@@ -1,0 +1,20 @@
+<div class="link-container">
+  <ul>
+      <li class="link-{{$index}}" ng-repeat="link in links"><a href="{{link.url}}">{{link.name}}</a></li>
+  </ul>
+</div>
+
+<div id="settings">
+
+	<form id="link-add-form" ng-submit="addLink()">
+		<input id="new-link-name" placeholder="Name" ng-model="newLinkName">
+		<input id="new-link-name" placeholder="URL" ng-model="newLinkURL">
+		<button type="submit">Add</button>
+	</form>
+
+	<form id="link-remove-form" ng-submit="removeLink()">
+		<input id="remove-link-name" placeholder="Name of item to remove" ng-model="removeLinkName">
+		<button type="submit">Remove</button>
+	</form>
+
+</div>

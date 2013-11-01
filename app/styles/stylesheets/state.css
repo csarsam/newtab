@@ -1,0 +1,17 @@
+/* Colors */
+/* line 14, ../sass/state.scss */
+#mainGrid .link-0 :hover, #mainGrid .link-4 :hover, #mainGrid .link-8 :hover, #mainGrid .link-12 :hover {
+  background-color: #ef0637;
+}
+/* line 18, ../sass/state.scss */
+#mainGrid .grid2:hover {
+  background-color: #ff4a0c;
+}
+/* line 21, ../sass/state.scss */
+#mainGrid .grid3:hover {
+  background-color: #c59604;
+}
+/* line 24, ../sass/state.scss */
+#mainGrid .list-3, #mainGrid :hover {
+  background-color: #dff08e;
+}

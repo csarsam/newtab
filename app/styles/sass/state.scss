@@ -1,0 +1,27 @@
+@import "compass";
+
+/* Colors */
+$lightApple: #ECF6BB;
+$vistaBlue: #76BCAD;
+$skyBlue: #009ec3;
+$hotPink: #FA2E59;
+$tangerine: #FF703F;
+$saffron: #F7BC05;
+$borderGrey: #F5F5F5;
+
+#mainGrid {
+	.link-0, .link-4, .link-8, .link-12{
+		:hover {
+			background-color: darken( $hotPink, 10% );
+		}
+	}
+	.grid2:hover {
+		background-color: darken( $tangerine, 10% );
+	}
+	.grid3:hover {
+		background-color: darken( $saffron, 10% );
+	}
+	.list-3, :hover {
+		background-color: darken( $lightApple, 10% );
+	}
+}
